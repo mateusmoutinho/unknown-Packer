@@ -1,0 +1,10 @@
+function Help()
+    local comand = Get_comand()
+    print(ANSI_GREEN .. "===================GINGA STARTER=====================")
+    print(ANSI_GREEN .. "===================Actions===========================")
+    print(ANSI_CYAN .. "1: Create a project: '" .. comand .. " create_project'")
+    print(ANSI_CYAN .. "2: Create a project with a example: '" .. comand .. " create_project asteroids'")
+    print(ANSI_CYAN .. "3: List all availables examples: '" .. comand .. " list_examples'")
+    print(ANSI_CYAN .. "4: Run the project: '" .. comand .. " run'")
+    print(ANSI_CYAN .. "5: Build the project: '" .. comand .. " build'")
+end
