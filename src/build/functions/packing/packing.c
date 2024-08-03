@@ -39,13 +39,20 @@ void create_bins(){
     stack.text(data,"#include \"../types/all.h\"\n");
     stack.text(data,"Bin bins[] = {");
     long size = pack_folder(data,"bin/all");
-   
+
     stack.text(data,"#ifdef __linux__ \n");
-   
-    size+= pack_folder(data,"bin/linux");
+
+    long total_linux =  pack_folder(data,"bin/linux");
+
+    #ifdef __linux__
+        size+=total_linux;
+    #endif
     stack.text(data,"\n#endif\n");
     stack.text(data,"#ifdef _WIN32 \n");
-    size+=pack_folder(data,"bin/windows");
+    long total_win=pack_folder(data,"bin/windows");
+    #ifdef _WIN32
+        size+=total_win;
+    #endif
     stack.text(data,"\n#endif\n");
 
     stack.text(data,"};\n");
