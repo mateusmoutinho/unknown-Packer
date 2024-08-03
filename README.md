@@ -18,34 +18,26 @@ For Runing , just type:
 ./packer.out run
 ```
 
+
 ### 4: Building 
 For pack the project to final user, type 
 ```shel 
 ./packer.out build
 ```
 
-## Windows
+### Listing Avaialbe Projects 
+For Listing all projects, just type 
 
-### 1: Instalation 
-
-
-### 2: Creating a Project 
-For start a project with everything configured, just type:
 ```shel 
-packer.exe create_project asteroids
-
+./packer.out list_examples
 ```
-### 3: Runing
-For Runing , just type: 
+### Getting Help
+For Getting help,just type: 
 ```shel 
-packer.exe run
+./packer.out help
 ```
 
-### 4: Building 
-For pack the project to final user, type 
-```shel 
-packer.exe build
-```
+
 
 
 #### Building from scracth
