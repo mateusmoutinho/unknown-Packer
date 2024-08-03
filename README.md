@@ -10,8 +10,8 @@ easy to use, for use, just follow these steps
 For start a project with everything configured, just type:
 ```shel 
 ./packer.out create_project asteroids
-
 ```
+
 ### 3: Runing
 For Runing , just type: 
 ```shel 
