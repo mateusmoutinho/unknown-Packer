@@ -5,7 +5,7 @@
 #define BIN_COUDE  "c/globals/bin.c"
 #define LUA_VAR_NAME  "lua_code"
 #define LUA_START_POINT  "main.lua"
-#define FINAL_OUPTUT_LINUX  "ginga_packer.out"
-#define FINAL_OUPTUT_WINDOS  "ginga_packer.exe"
+#define FINAL_OUPTUT_LINUX  "packer.out"
+#define FINAL_OUPTUT_WINDOS  "packer.exe"
 
 #endif
