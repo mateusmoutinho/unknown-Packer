@@ -13,6 +13,11 @@ These code will download the packer, create a project, and run it at once
 
 ```
 ### 1: Instalation
+For installing the project  just type
+
+```shel
+ curl -L https://github.com/mateusmoutinho/unknown-Packer/releases/download/0.001/packer.out -o packer.out
+```
 
 ### 2: Creating a Project
 For start a project with everything configured, just type:
