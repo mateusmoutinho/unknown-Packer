@@ -1,10 +1,5 @@
 local function create_ginga()
     dtw.remove_any(".ginga")
-    if get_os() == 'linux' then
-        dtw.write_file(".ginga/run", bin.getbin("run.AppImage"))
-        dtw.write_file(".ginga/lua", bin.getbin("lua"))
-    end
-
     local src, size = bin.list_files_recursively(".ginga")
     for i = 1, size do
         local path = src[i]

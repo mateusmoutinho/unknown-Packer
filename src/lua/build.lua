@@ -6,6 +6,11 @@ function Build()
     if get_os() == 'linux' then
         os.execute("cd .ginga && chmod +x lua ")
         os.execute("cd .ginga && ./lua src/cli/main.lua build ../src/main.lua --core love")
-        os.execute("cd .ginga  && zip -9 game.zip dist/* && cat ./run dist game.zip > game.out")
+
+        dtw.copy_any_overwriting(".ginga/run", "game/run")
+        dtw.copy_any_overwriting(".ginga/dist", "game/dist")
+        dtw.copy_any_overwriting(".ginga/run.sh", "game/run.sh")
+        os.execute("zip -j game.zip game/*")
+        dtw.remove_any("game")
     end
 end
