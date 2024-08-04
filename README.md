@@ -9,14 +9,14 @@ easy to use, for use, just follow these steps
 
 These code will download the packer, create a project, and run it at once
 ```shel
- curl -L https://github.com/mateusmoutinho/unknown-Packer/releases/download/0.002/packer.out -o packer.out && chmod +x packer.out && ./packer.out create_project asteroids --force && ./packer.out run
+ curl -L https://github.com/mateusmoutinho/unknown-Packer/releases/download/0.003/packer.out -o packer.out && chmod +x packer.out && ./packer.out create_project asteroids --force && ./packer.out run
 
 ```
 ### 1: Instalation
 For installing the project  just type
 
 ```shel
- curl -L https://github.com/mateusmoutinho/unknown-Packer/releases/download/0.002/packer.out -o packer.out
+ curl -L https://github.com/mateusmoutinho/unknown-Packer/releases/download/0.003/packer.out -o packer.out
 ```
 
 ### 2: Creating a Project
